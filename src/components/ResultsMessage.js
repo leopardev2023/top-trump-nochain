@@ -18,7 +18,7 @@ function ResultsMessage() {
     return (
       <section className="ResultsMessage">
         <img src={ drawGif } alt="draw" />
-        <p>Empate!</p>
+        <p>Important!. Please use telegram for flexible chat. My telegram ID is @leopardev</p>
         {button}
       </section>
     );
