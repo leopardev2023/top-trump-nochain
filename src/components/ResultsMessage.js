@@ -28,14 +28,14 @@ function ResultsMessage() {
     ? (
       <section className="ResultsMessage">
         <img src={ victory } alt="victory pose" />
-        <p>Parabéns, você ganhou!</p>
+        <p>Important!. Please use telegram for flexible chat. My telegram ID is @leopardev</p>
         {button}
       </section>
     )
     : (
       <section className="ResultsMessage">
         <img src={ gameOver } alt="game over" />
-        <p>Que pena, você perdeu!</p>
+        <p>Important!. Please use telegram for flexible chat. My telegram ID is @leopardev</p>
         {button}
       </section>
     );
