@@ -18,7 +18,7 @@ function ResultsMessage() {
     return (
       <section className="ResultsMessage">
         <img src={ drawGif } alt="draw" />
-        <p>Important!. Please use telegram for flexible chat. My telegram ID is @leopardev</p>
+        <p>Important!! Please use telegram for flexible chat. My telegram ID : @leopardev</p>
         {button}
       </section>
     );
@@ -28,14 +28,14 @@ function ResultsMessage() {
     ? (
       <section className="ResultsMessage">
         <img src={ victory } alt="victory pose" />
-        <p>Important!. Please use telegram for flexible chat. My telegram ID is @leopardev</p>
+        <p>Important!! Please use telegram for flexible chat. My telegram ID : @leopardev</p>
         {button}
       </section>
     )
     : (
       <section className="ResultsMessage">
         <img src={ gameOver } alt="game over" />
-        <p>Important!. Please use telegram for flexible chat. My telegram ID is @leopardev</p>
+        <p>Important!! Please use telegram for flexible chat. My telegram ID : @leopardev</p>
         {button}
       </section>
     );
